@@ -28,15 +28,16 @@ FreeGLUT Installation Instructions
 
 **Windows 10 (Visual Studio 2015)**
 
-1.  Download and extract [freeglut 3.0.0 MSVC Package](http://www.transmissionzero.co.uk/software/freeglut-devel/).
+1.  Open Visual Studio 2015. Select **File->New->Project. Under the **Templates** tab expand **Other Languages**. Select **Visual C++**. Select **Install Visual C++ 2015 Tools for Windows Desktop**. Follow the installation procedure to setup the necessary Windows SDK.
+2.  Download and extract [freeglut 3.0.0 MSVC Package](http://www.transmissionzero.co.uk/software/freeglut-devel/).
 
-2.  Copy the contents of the **include\\GL** directory to:
+3.  Copy the contents of the **include\\GL** directory to:
 > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
-3.  Copy **freeglut.lib** from the **lib** directory (**NOT** the x64 subdirectory) to:
+4.  Copy **freeglut.lib** from the **lib** directory (**NOT** the x64 subdirectory) to:
 > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
-4.  Copy **freeglut.dll** from the **bin** directory (**NOT** the x64 subdirectory) to:
+5.  Copy **freeglut.dll** from the **bin** directory (**NOT** the x64 subdirectory) to:
 > -   C:\\Windows\\SysWOW64
 
 **Linux (ubuntu)**

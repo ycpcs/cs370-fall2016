@@ -19,6 +19,11 @@ All information about the course will be posted here.
 ## News
 
 * **Aug 30** - Welcome back!
+* **Sept 29 - EXAM I**
+* **Oct 18** - NO CLASS - Fall Break.
+* **Nov 1 - EXAM II**
+* **Nov 24** - NO CLASS - Thanksgiving Break.
+* **Dec 1 - EXAM III**
 
 <!--
 * **Sept 15** - Assignment 1 (Don Quixote) Due.
