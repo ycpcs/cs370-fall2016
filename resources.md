@@ -31,7 +31,7 @@ FreeGLUT Installation Instructions
 
 **Windows 10 (Visual Studio 2015)**
 
-1.  Open Visual Studio 2015. Select **File->New->Project. Under the **Templates** tab expand **Other Languages**. Select **Visual C++**. Select **Install Visual C++ 2015 Tools for Windows Desktop**. Follow the installation procedure to setup the necessary Windows SDK.
+1.  Open Visual Studio 2015. Select **File->New->Project**. Under the **Templates** tab expand **Other Languages**. Select **Visual C++**. Select **Install Visual C++ 2015 Tools for Windows Desktop**. Follow the installation procedure to setup the necessary Windows SDK.
 
 2.  Download and extract [freeglut 3.0.0 MSVC Package](http://www.transmissionzero.co.uk/software/freeglut-devel/).
 
@@ -57,7 +57,9 @@ $ sudo apt-get install freeglut3-dev
 
 **Mac OSX**
 
-Install **XCode** from the App Store. Then in a terminal window 
+Install **XCode** from the App Store. 
+
+Then in a terminal window 
 
 ```cpp
 $ sudo xcode-select --install
@@ -70,23 +72,23 @@ SOIL Installation Instructions
 
 **Windows 8.1 (Visual Studio 2015)**
 
-1.  Copy the header file in the links to (you will need to make a new **SOIL** directory):
+1.  Copy the header file [SOIL.h](soil/win64/SOIL.h) to (you will need to make a new **SOIL** directory):
 
-> -   [SOIL.h](soil/win64/SOIL.h) C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
+> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
 
-2.  Copy the library in the links to:
+2.  Copy the library [SOIL.lib](soil/win64/SOIL.lib) to:
 
-> -   [SOIL.lib](soil/win64/SOIL.lib) C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 **Windows 10 (Visual Studio 2015)**
 
-1.  Copy the header file in the links to (you will need to make a new **SOIL** directory):
+1.  Copy the header file [SOIL.h](soil/win64/SOIL.h) to (you will need to make a new **SOIL** directory):
 
-> -   [SOIL.h](soil/win64/SOIL.h) C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
+> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
 
-2.  Copy the library in the links to:
+2.  Copy the library [SOIL.lib](soil/win64/SOIL.lib) to:
 
-> -   [SOIL.lib](soil/win64/SOIL.lib) C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 **Linux (ubuntu)**
 
@@ -156,7 +158,7 @@ GLEW Installation Instructions
 From a terminal window
 
 ```cpp
-$ **sudo apt-get install libglew-dev**
+$ sudo apt-get install libglew-dev
 ```
 
 **Mac OSX**
