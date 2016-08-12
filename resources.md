@@ -57,7 +57,13 @@ $ sudo apt-get install freeglut3-dev
 
 **Mac OSX**
 
-Install [XCode](https://developer.apple.com/xcode/downloads/) which includes OSX GLUT libraries.
+Install **XCode** from the App Store. Then in a terminal window 
+
+```cpp
+$ sudo xcode-select --install
+```
+
+to install the command line tools.
 
 SOIL Installation Instructions
 ------------------------------
@@ -121,11 +127,11 @@ GLEW Installation Instructions
 
 > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
-3.  Copy **glew32.lib** in the **lib** directory to:
+3.  Copy **glew32.lib** in the **lib\\Release\Win32** directory to:
 
 > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
-4.  Copy **glew32.dll** in the **bin** directory to:
+4.  Copy **glew32.dll** in the **bin\Release\Win32** directory to:
 
 > -   C:\\Windows\\SysWOW64
 
@@ -137,11 +143,11 @@ GLEW Installation Instructions
 
 > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
-3.  Copy **glew32.lib** in the **lib** directory to:
+3.  Copy **glew32.lib** in the **lib\\Release\Win32** directory to:
 
 > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
-4.  Copy **glew32.dll** in the **bin** directory to:
+4.  Copy **glew32.dll** in the **bin\Release\Win32** directory to:
 
 > -   C:\\Windows\\SysWOW64
 
