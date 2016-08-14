@@ -37,15 +37,15 @@ FreeGLUT Installation Instructions
 
 3.  Copy the contents of the **include\\GL** directory to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
 4.  Copy **freeglut.lib** from the **lib** directory (**NOT** the x64 subdirectory) to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 5.  Copy **freeglut.dll** from the **bin** directory (**NOT** the x64 subdirectory) to:
 
-> -   C:\\Windows\\SysWOW64
+    - C:\\Windows\\SysWOW64
 
 **Linux (ubuntu)**
 
@@ -74,21 +74,21 @@ SOIL Installation Instructions
 
 1.  Copy the header file [SOIL.h](soil/win64/SOIL.h) to (you will need to make a new **SOIL** directory):
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
 
 2.  Copy the library [SOIL.lib](soil/win64/SOIL.lib) to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 **Windows 10 (Visual Studio 2015)**
 
 1.  Copy the header file [SOIL.h](soil/win64/SOIL.h) to (you will need to make a new **SOIL** directory):
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\SOIL
 
 2.  Copy the library [SOIL.lib](soil/win64/SOIL.lib) to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 **Linux (ubuntu)**
 
@@ -127,15 +127,15 @@ GLEW Installation Instructions
 
 2.  Copy the contents of the **include\\GL** directory to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
 3.  Copy **glew32.lib** in the **lib\\Release\Win32** directory to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 4.  Copy **glew32.dll** in the **bin\Release\Win32** directory to:
 
-> -   C:\\Windows\\SysWOW64
+    - C:\\Windows\\SysWOW64
 
 **Windows 10 (Visual Studio 2015)**
 
@@ -143,15 +143,15 @@ GLEW Installation Instructions
 
 2.  Copy the contents of the **include\\GL** directory to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
 3.  Copy **glew32.lib** in the **lib\\Release\Win32** directory to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+    - C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 4.  Copy **glew32.dll** in the **bin\Release\Win32** directory to:
 
-> -   C:\\Windows\\SysWOW64
+    - C:\\Windows\\SysWOW64
 
 **Linux (ubuntu)**
 
@@ -164,6 +164,3 @@ $ sudo apt-get install libglew-dev
 **Mac OSX**
 
 GLEW is not needed for OSX.
-
-
-
