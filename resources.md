@@ -19,15 +19,15 @@ FreeGLUT Installation Instructions
 
 2.  Copy the contents of the **include\\GL** directory to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
+    > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Include\\um\\gl
 
 3.  Copy **freeglut.lib** from the **lib** directory (**NOT** the x64 subdirectory) to:
 
-> -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
+    > -   C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86
 
 4.  Copy **freeglut.dll** from the **bin** directory (**NOT** the x64 subdirectory) to:
 
-> -   C:\\Windows\\SysWOW64
+    > -   C:\\Windows\\SysWOW64
 
 **Windows 10 (Visual Studio 2015)**
 
