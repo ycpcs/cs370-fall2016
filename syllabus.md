@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home Page
+title: Syllabus
 ---
 
 CS 370 - Computer Graphics Programming I
