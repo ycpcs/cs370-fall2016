@@ -19,6 +19,7 @@ All information about the course will be posted here.
 ## News
 
 * **Aug 30** - Welcome back!
+* **Sept 13** - Assignment 1 (Don Quixote) Due.
 * **Sept 29 - EXAM I**
 * **Oct 18** - NO CLASS - Fall Break.
 * **Nov 1 - EXAM II**
