@@ -13,10 +13,9 @@ Although the labs are not graded and you are not required to submit them, they a
 > Sept 1  | [Lab 2: Basic Geometry](lab02.html) <br /> [Lab 3: Linear Algebra](lab03.html)| [CS370_Lab02.zip](src/CS370_Lab02.zip) <br /> [CS370_Lab03.zip](src/CS370_Lab03.zip)| [CS370_Lab02Sol.zip](sol/CS370_Lab02Sol.zip) <br /> [CS370_Lab03Sol.zip](sol/CS370_Lab03Sol.zip)
 > Sept 6  | [Lab 4: Affine Transformations I](lab04.html) <br /> [Lab 5: Affine Transformations II](lab05.html)| [CS370_Lab04.zip](src/CS370_Lab04.zip) <br /> [CS370_Lab05.zip](src/CS370_Lab05.zip)| [CS370_Lab04Sol.zip](sol/CS370_Lab04Sol.zip) <br /> [CS370_Lab05Sol.zip](sol/CS370_Lab05Sol.zip)
 > Sept 8  | [Lab 6: User Interaction and Animation](lab06.html) | [CS370_Lab06.zip](src/CS370_Lab06.zip) | [CS370_Lab06Sol.zip](sol/CS370_Lab06Sol.zip)
+> Sept 13 | [Lab 7: 3D Orthographic Projection](lab07.html) | [CS370_Lab07.zip](src/CS370_Lab07.zip) | [CS370_Lab07Sol.zip](sol/CS370_Lab07Sol.zip)
 
 <!--
-> Sept 8  | [Lab 6: User Interaction and Animation](lab06.html) | [CS370_Lab06.zip](src/CS370_Lab06.zip) | [CS370_Lab06Sol.zip](sol/CS370_Lab06Sol.zip)
-> Sept 13 | [Lab 7: 3D Orthographic Projection](lab07.html) | [CS370_Lab07.zip](src/CS370_Lab07.zip) | [CS370_Lab07Sol.zip](sol/CS370_Lab07Sol.zip)
 > Sept 15 | [Lab 8: 3D Perspective Projection](lab08.html) | [CS370_Lab08.zip](src/CS370_Lab08.zip) | [CS370_Lab08Sol.zip](sol/CS370_Lab08Sol.zip)
 > Sept 20 | [Lab 9: Time-based Animation and Fonts](lab09.html) | [CS370_Lab09.zip](src/CS370_Lab09.zip) | [CS370_Lab09Sol.zip](sol/CS370_Lab09Sol.zip)
 > Sept 22 | [Lab 10: Basic GLSL I - Using Shaders](lab10.html) | [CS370_Lab10.zip](src/CS370_Lab10.zip) | [CS370_Lab10Sol.zip](sol/CS370_Lab10Sol.zip)

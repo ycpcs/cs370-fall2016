@@ -16,9 +16,9 @@ OP: [OpenGL: A Primer – 3rd Edition.](http://www.pearsonhighered.com/educator/
 > Sept 1  | [Lab 2: Basic Geometry](../labs/lab02.html) <br /> [Lab 3: Linear Algebra](../labs/lab03.html)| OPG: Ch. 5 <br /> OP: Ch. 5 | [CS370_Lab02.zip](../labs/src/CS370_Lab02.zip) <br /> [CS370_Lab03.zip](../labs/src/CS370_Lab03.zip)
 > Sept 6  | [Lab 4: Affine Transformations I](../labs/lab04.html) <br /> [Lab 5: Affine Transformations II](../labs/lab05.html)|   | [CS370_Lab04.zip](../labs/src/CS370_Lab04.zip) <br /> [CS370_Lab05.zip](../labs/src/CS370_Lab05.zip)
 > Sept 8  | [Lab 6: User Interaction and Animation](../labs/lab06.html) | OP: Ch. 3 | [CS370_Lab06.zip](../labs/src/CS370_Lab06.zip)
+> Sept 13 | [Lab 7: 3D Orthographic Projection](../labs/lab07.html) <br /> **Assignment 1 Due** | OPG: Ch. 5 <br /> OP: Ch. 4 | [CS370_Lab07.zip](../labs/src/CS370_Lab07.zip) 
 
 <!--
-> Sept 15 | [Lab 7: 3D Orthographic Projection](../labs/lab07.html) <br /> **Assignment 1 Due** | OPG: Ch. 5 <br /> OP: Ch. 4 | [CS370_Lab07.zip](../labs/src/CS370_Lab07.zip) 
 > Sept 17 | [Lab 8: 3D Perspective Projection](../labs/lab08.html) |  | [CS370_Lab08.zip](../labs/src/CS370_Lab08.zip)
 > Sept 22 | [Lab 9: Time-based Animation and Fonts](../labs/lab09.html) |  | [CS370_Lab09.zip](../labs/src/CS370_Lab09.zip)
 > Sept 24 | [Lab 10: Basic GLSL I](../labs/lab10.html) | OPG: Ch. 2 <br /> OP: Ch. 10 | [CS370_Lab10.zip](../labs/src/CS370_Lab10.zip)
