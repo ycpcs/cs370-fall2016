@@ -13,8 +13,8 @@ Since this model produces inverted images, we will assume that the projection pl
 
 Since we will now start rendering scenes with many objects (particularly based on the same instance object), performance in terms of rendering efficiency can become an issue. In particular, for complex geometry with a large number of vertices, the overhead incurred via the **glVertex3f()** function calls incurs a substantial performance penalty. We can mitigate this problem by loading the vertices onto the graphics card and then simply telling the card to render the objects (rather than repeatedly pushing all the data down the pipeline). The disadvantage to this approach is that once the vertices are on the graphics card, they cannot be modified by the application (other than by modelview transformations).
 
-0. Getting Started
-==================
+0\. Getting Started
+===================
 
 Download [CS370\_Lab08.zip](src/CS370_Lab08.zip), saving it into the **labs** directory.
 
@@ -24,8 +24,8 @@ Navigate into the **CS370\_Lab08** directory and double-click on **CS370\_Lab08.
 
 If the source file is not already open in the main window, open the source file by expanding the *Source Files* item in the *Solution Explorer* window and double-clicking **perspectiveCubes.cpp**.
 
-1. Perspective Projection
-=========================
+1\. Perspective Projection
+==========================
 
 Unlike orthogonal projection where parallel lines remain parallel and the size of an object is independent of its location relative to the camera, perspective projection is more akin to actual scenes. For example, two parallel railroad tracks *appear* to converge to a point in the distance and as objects move away from the observer, i.e. the camera, they get smaller in size. For this projection mode, rather than the viewing volume being a parallelapiped, it has a shape known as a *frustum*. This frustum can be visualized as a pyramid with its point at the camera but starting a small distance from the camera (the *near clipping plane*) and extending a further distance outward (the *far clipping plane*) as shown below.
 
@@ -41,13 +41,10 @@ where again *left* and *right* are the *x* extents of the near clipping plane, *
 
 **Tasks**
 
--   Add code to **keyfunc()** to set the projection flag **proj** to **ORTHOGRAPHIC** for 'o' and **PERSPECTIVE** for 'p'. This will allow you to toggle between projection modes via the keyboard.
--   Add code to **display()** to set an orthographic projection (via **glOrtho()**) if **proj** is set to **ORTHOGRAPHIC** with extents (-4,4,-4,4,1,8). NOTE: Be sure to switch to the projection matrix and load the identity *before* setting the projection transformation.
--   Add code to **display()** to set a perspective projection (via **glFrustum()**) if **proj** is set to **PERSPECTIVE** with extents (-1,1,-1,1,1,8). NOTE: Be sure to switch to the projection matrix and load the identity *before* setting the projection transformation.
--   Add code to **display()** to select the modelview matrix and initialize it to the identity matrix prior to calling **render\_scene()** (but after the projection matrix has been set).
+-   Add code to **display()** to set a perspective projection (via **glFrustum()**) with extents (-1,1,-1,1,1,8).
 
-2. Camera Position
-==================
+2\. Camera Position
+===================
 
 The default camera position is at the origin pointed in the *-z* direction. We can, however, change this position and orientation with the command
 
@@ -55,14 +52,14 @@ The default camera position is at the origin pointed in the *-z* direction. We c
 gluLookAt(eyex, eyey, eyez, atx, aty, atz, upx, upy, upz);
 ```
 
-where *eyex*, *eyey*, and *eyez* are the world coordinates of the camera; *atx*, *aty*, *atz* are the world coordinates where the camera is pointing; and *upx*, *upy*, *upz* define a vector indicating which direction is up for the camera (since otherwise the camera could have any orientation about the axis defined by *eye* and *at*). Since this command essentially creates an initial global transformation, it should be issued *prior to any* other modelview transformations (otherwise the camera location and orientation will be concatenated with any preceeding transformations). Note: Usually this command will be placed at the beginning of **render\_scene()** just after the initial **glLoadIdentity()**.
+where *eyex*, *eyey*, and *eyez* are the world coordinates of the camera; *atx*, *aty*, *atz* are the world coordinates where the camera is pointing; and *upx*, *upy*, *upz* define a vector indicating which direction is up for the camera (since otherwise the camera could have any orientation about the axis defined by *eye* and *at*). Since this command essentially creates an initial global transformation, it should be issued *prior to any* other modelview transformations (otherwise the camera location and orientation will be concatenated with any preceeding transformations). Note: Usually this command will be placed in **display()** and be the *first* modelview transformation since it applies to *all* objects.
 
 **Tasks**
 
--   Add code to **display()** to set the camera vectors via the **gluLookAt()** command. Use the global arrays **eye[]**, **at[]**, and **up[]** along with the symbolic constants **X**, **Y**, and **Z** given at the top of the code. NOTE: Make sure to do this *after* you initialize the modelview matrix to the identity matrix but *before* you render any objects (such that *all* objects will be in the frame of reference of the camera).
+-   Add code to **display()** to set the camera vectors via the **gluLookAt()** command. Use the global arrays **eye[]**, **at[]**, and **up[]** along with the symbolic constants **X**, **Y**, and **Z** given at the top of the code. NOTE: Make sure to do this *after* the modelview matrix is intialized to the identity matrix but *before* **render_scene()** is called (such that *all* objects will be in the frame of reference of the camera).
 
-3. Display Lists
-================
+3\. Display Lists
+=================
 
 Depending on our requirements, one way to improve performance is through the use of *display lists*. If the geometry of our object(s) is *fixed* (for example with instance objects) we can *compile* the geometry into a display list and store it *on the graphics card*. Then when we wish to use the object(s), we simply tell the graphics card to render the desired list (thus avoiding passing *any* geometry from the application to the pipeline). However since the object(s) is compiled, once created it cannot be modified (unless it is subsequently recompiled). The display lists may contain multiple objects, even using different instance transformations for each object, as long as the local transformations are *static*, i.e. we cannot modify any internal transformation parameters after the list is compiled.
 
@@ -115,8 +112,8 @@ where *listname* is the name of the list we wish to render. NOTE: The objects wi
 
 See section 3.12.1 of *OpenGL: A Primer* for information on manipulating multiple display lists using a single command.
 
-4. Rendering Multiple Objects
-=============================
+4\. Rendering Multiple Objects
+==============================
 
 We have already discussed in previous labs how to reset the modelview matrix using **glLoadIdentity()**. However often we wish to maintain a global transformation, e.g. one produced by positioning the camera, for *all* objects in the scene while still allowing for local transformations on a per object basis. Fortunately OpenGL provides a *matrix stack* that can be used to *push* and *pop* the current modelview matrix as needed. This is done with the commands
 
@@ -138,8 +135,8 @@ glPopMatrix();
 -   Add code to **render\_scene()** to render a *scaled* (by (1.5,0.5,1.5)) cube using the **CUBE** display list. NOTE: Be sure to save and restore the modelview matrix when rendering this object.
 -   GLUT (and GLU) provide functions to draw many common geometric shapes such as cubes, spheres, disks, etc. - see sections 4.3 and 4.7 of *OpenGL: A Primer* for more details. Add code to **render\_scene()** to render a red sphere using **glutSolidSphere()** of radius 1 with 20 slices and 20 stacks. Translate the sphere up by 1.5 such that it sits on top of the base drawn in the previous step. NOTE: Be sure to save and restore the modelview matrix when rendering this object.
 
-5. Spherical Coordinates
-========================
+5\. Spherical Coordinates
+=========================
 
 Often times when we wish to move the camera through a scene, simply adjusting the (x,y,z) components in Cartesian coordinates is awkward for the user. Instead it is more natural if the camera is moved in *spherical coordinates* which consist of an *azimuth* angle (rotation about the *y* axis), an *elevation* angle (rotation down from the *y* axis), and a *radius* (distance from the origin), see the diagram below
 
@@ -155,7 +152,6 @@ With this coordinate system, the user appears to rotate *around* the object (azi
 -   Add code to **keyfunc()** to allow 'w' and 's' to adjust the **elevation** by adding/subtracting **del**. NOTE: The elevation angle should be bounded in the range [0,180] via clamping.
 -   Add code to **keyfunc()** to allow 'x' and 'z' to adjust the **radius** by adding/subtracting **dr**. NOTE: The radius should not be allowed to go below **min\_radius**.
 -   Add code to **keyfunc()** to compute the Cartesian coordinates for **eye[]** from **azimuth**, **elevation**, and **radius**. NOTE: You will need to convert the angles from degrees to radians in the math functions **sin()** and **cos()** using the symbolic constant **DEG2RAD**.
--   To keep the scene from jumping when the first key is pressed, add code to **main()** to also compute the Cartesian coordinates for **eye[]** (and typically **at[]** if it depends on **eye[]**) from **azimuth**, **elevation**, and **radius**. NOTE: You will need to convert the angles from degrees to radians in the math functions **sin()** and **cos()** using the symbolic constant **DEG2RAD**.
 
 Compiling and running the program
 =================================
