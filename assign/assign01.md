@@ -5,9 +5,9 @@ title: "Assignment 1: Don Quixote"
 
 **UPDATE**
 
-**Written Questions Due: Tuesday, Sept 15th by 9:30/11:00 AM** (in class)
+**Written Questions Due: Thursday, Sept 15th by 9:30/11:00 AM** (in class)
 
-**Program Due: Tuesday, Sept 15th by 11:59 PM** Late assignments will be penalized 20 points per day.
+**Program Due: Thursday, Sept 15th by 11:59 PM** Late assignments will be penalized 20 points per day.
 
 0\. Getting Started
 ==================
