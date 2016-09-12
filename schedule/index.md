@@ -19,11 +19,11 @@ OP: [OpenGL: A Primer – 3rd Edition.](http://www.pearsonhighered.com/educator/
 > Sept 13 | [Lab 7: 3D Orthographic Projection](../labs/lab07.html) | OPG: Ch. 5 <br /> OP: Ch. 4 | [CS370_Lab07.zip](../labs/src/CS370_Lab07.zip) 
 > Sept 15 | [Lab 8: 3D Perspective Projection](../labs/lab08.html) <br /> **UPDATE: Assignment 1 Due** |  | [CS370_Lab08.zip](../labs/src/CS370_Lab08.zip)
 > Sept 20 | [Lab 9: Time-based Animation and Fonts](../labs/lab09.html) |  | [CS370_Lab09.zip](../labs/src/CS370_Lab09.zip)
+> Sept 22 | [Lab 10: Basic GLSL I](../labs/lab10.html) | OPG: Ch. 2 <br /> OP: Ch. 10 | [CS370_Lab10.zip](../labs/src/CS370_Lab10.zip)
+> Sept 29 | **EXAM I** | |
 
 <!--
-> Sept 24 | [Lab 10: Basic GLSL I](../labs/lab10.html) | OPG: Ch. 2 <br /> OP: Ch. 10 | [CS370_Lab10.zip](../labs/src/CS370_Lab10.zip)
 > Sept 29 | [Lab 11: Basic GLSL II](../labs/lab11.html) <br /> **Assignment 2 Due** |  | [CS370_Lab11.zip](../labs/src/CS370_Lab11.zip)
-> Oct 1   | **EXAM I** | |
 > Oct 6   | [Lab 12: Basic Lighting](../labs/lab12.html) | OPG: Ch. 7 <br /> OP: Ch. 6 | [CS370_Lab12.zip](../labs/src/CS370_Lab12.zip)
 > Oct 8   | [Lab 13: Light Sources](../labs/lab13.html) |  | [CS370_Lab13.zip](../labs/src/CS370_Lab13.zip)
 > Oct 13  | [Lab 14: Recursive Subdivision](../labs/lab14.html) |  | [CS370_Lab14.zip](../labs/src/CS370_Lab14.zip)
