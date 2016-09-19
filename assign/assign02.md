@@ -7,8 +7,8 @@ title: "Assignment 2: Train Kept A Rollin' (hopefully not all night long)"
 
 **Program Due: Thursday, Sept 29th by 11:59 PM** Late assignments will be penalized 20 points per day.
 
-0. Getting Started
-==================
+0\. Getting Started
+===================
 
 Download [CS370\_Assign02.zip](src/CS370_Assign02.zip), saving it into the **assignment** directory.
 
@@ -18,8 +18,8 @@ Navigate into the **CS370\_Assign02** directory and double-click on **CS370\_Ass
 
 If the source file is not already open in the main window, open the source file by expanding the *Source Files* item in the *Solution Explorer* window and double-clicking **RollinTrain.cpp**.
 
-1. Written Questions
-====================
+1\. Written Questions
+=====================
 
 1.  Show that a rotation and a *uniform* scaling transformations are commutative, i.e. that they can be applied in either order. 
 
@@ -44,8 +44,8 @@ If the source file is not already open in the main window, open the source file 
 
 **Extra credit** Quaternions are a better, but far less intuitive, way to represent rotations (particularly dynamically changing ones) that involves representing the rotations using complex numbers. Find quaternions for a 90 degree rotation about the *x* and *y* axes. What is the product of these two rotations as a quaternion?
 
-2. Programming assignment
-=========================
+2\. Programming assignment
+==========================
 
 Write a program that draws a 3D "train" scene using OpenGL. A sample executable is included in the skeleton file as either **RollinTrainSolWin.exe** (**RollingTrainSolWin10.exe**) or **RollinTrainSolMac.exe**. The scene should include:
 
