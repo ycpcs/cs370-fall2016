@@ -17,6 +17,7 @@ Although the labs are not graded and you are not required to submit them, they a
 > Sept 15 | [Lab 8: 3D Perspective Projection](lab08.html) | [CS370_Lab08.zip](src/CS370_Lab08.zip) | [CS370_Lab08Sol.zip](sol/CS370_Lab08Sol.zip)
 > Sept 20 | [Lab 9: Time-based Animation and Fonts](lab09.html) | [CS370_Lab09.zip](src/CS370_Lab09.zip) | [CS370_Lab09Sol.zip](sol/CS370_Lab09Sol.zip)
 > Sept 22 | [Lab 10: Basic GLSL I - Using Shaders](lab10.html) | [CS370_Lab10.zip](src/CS370_Lab10.zip) | [CS370_Lab10Sol.zip](sol/CS370_Lab10Sol.zip)
+> Sept 27 | [Lab 11: Basic GLSL II - Writing Shaders](lab11.html) | [CS370_Lab11.zip](src/CS370_Lab11.zip) | [CS370_Lab11Sol.zip](sol/CS370_Lab11Sol.zip)
 
 <!--
 > Sept 27 | [Lab 11: Basic GLSL II - Writing Shaders](lab11.html) | [CS370_Lab11.zip](src/CS370_Lab11.zip) | [CS370_Lab11Sol.zip](sol/CS370_Lab11Sol.zip)
