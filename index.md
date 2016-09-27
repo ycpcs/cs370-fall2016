@@ -21,8 +21,8 @@ All information about the course will be posted here.
 * **Aug 30** - Welcome back!
 * **Sept 6 - NO CLASS**
 * **UPDATE** **Sept 15** - Assignment 1 (Don Quixote) Due.
-* **Sept 29** - Assignment 2 (Rollin Train) Due.
 * **Sept 29 - EXAM I**
+* **UPDATE** **Oct 3** - Assignment 2 (Rollin Train) Due.
 * **Oct 18** - NO CLASS - Fall Break.
 * **Nov 1 - EXAM II**
 * **Nov 24** - NO CLASS - Thanksgiving Break.
