@@ -8,7 +8,7 @@ This page links to programming assignments.
 > Assignment | File | Written Due | Program Due | Solutions |
 > ---------- | ---- | ----------- | ----------- | --------- |
 > [Assignment 1: Don Quixote](assign01.html)       | [CS370_Assign01.zip](src/CS370_Assign01.zip) | **UPDATE** **Sept 15** | **Sept 15** | [assign01sol.pdf](sol/assign01sol.pdf) |
-> [Assignment 2: Rollin Train](assign02.html)      | [CS370_Assign02.zip](src/CS370_Assign02.zip) | **Sept 27** | **Sept 29** |  |
+> [Assignment 2: Rollin Train](assign02.html)      | [CS370_Assign02.zip](src/CS370_Assign02.zip) | **Sept 27** | **Sept 29** | [assign02sol.pdf](sol/assign02sol.pdf) |
 
 <!--
 > [Assignment 3: Limelight](assign03.html)         | [CS370_Assign03.zip](src/CS370_Assign03.zip) | **Oct 29**  | **Nov 2**   | [assign03sol.pdf](sol/assign03sol.pdf) |
