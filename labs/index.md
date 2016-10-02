@@ -18,9 +18,9 @@ Although the labs are not graded and you are not required to submit them, they a
 > Sept 20 | [Lab 9: Time-based Animation and Fonts](lab09.html) | [CS370_Lab09.zip](src/CS370_Lab09.zip) | [CS370_Lab09Sol.zip](sol/CS370_Lab09Sol.zip)
 > Sept 22 | [Lab 10: Basic GLSL I - Using Shaders](lab10.html) | [CS370_Lab10.zip](src/CS370_Lab10.zip) | [CS370_Lab10Sol.zip](sol/CS370_Lab10Sol.zip)
 > Sept 27 | [Lab 11: Basic GLSL II - Writing Shaders](lab11.html) | [CS370_Lab11.zip](src/CS370_Lab11.zip) | [CS370_Lab11Sol.zip](sol/CS370_Lab11Sol.zip)
+> Oct 4   | [Lab 12: Basic Lighting](lab12.html) | [CS370_Lab12.zip](src/CS370_Lab12.zip) | [CS370_Lab12Sol.zip](sol/CS370_Lab12Sol.zip)
 
 <!--
-> Sept 27 | [Lab 11: Basic GLSL II - Writing Shaders](lab11.html) | [CS370_Lab11.zip](src/CS370_Lab11.zip) | [CS370_Lab11Sol.zip](sol/CS370_Lab11Sol.zip)
 > Oct 4   | [Lab 12: Basic Lighting](lab12.html) | [CS370_Lab12.zip](src/CS370_Lab12.zip) | [CS370_Lab12Sol.zip](sol/CS370_Lab12Sol.zip)
 > Oct 6   | [Lab 13: Light Sources](lab13.html) | [CS370_Lab13.zip](src/CS370_Lab13.zip) | [CS370_Lab13Sol.zip](sol/CS370_Lab13Sol.zip)
 > Oct 11  | [Lab 14: Recursive Subdivision](lab14.html) | [CS370_Lab14.zip](src/CS370_Lab14.zip) | [CS370_Lab14Sol.zip](sol/CS370_Lab14Sol.zip)
