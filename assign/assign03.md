@@ -125,8 +125,6 @@ Once you have completed typing in the code, you can build and run the program in
 The output should look similar to below (note colors and shapes do not need to be *exactly* identical but should demonstrate an understanding of the concepts)
 
 > ![image](images/assign03/LimeLight.png)
->
-> ![image](images/assign03/LimeLight2.png)
 
 To quit the program simply close the window.
 
