@@ -106,11 +106,11 @@ For up to 75% credit: Draw the basic scene with a recursively subdivided stage, 
 
 For up to 80% credit: Draw the basic scene with a recursively subdivided stage, animated objects, *movable spotlights*, but no shadows.
 
-For up to 90% credit: Draw the basic scene with a recursively subdivided stage, animated objects, movable spotlights, and *fixed* shadows.
+For up to 85% credit: Draw the basic scene with a recursively subdivided stage, animated objects, movable spotlights, and *fixed* shadows.
 
-For up to 95% credit: Draw the basic scene with a recursively subdivided stage, animated objects, movable spotlights, and *moving* shadows.
+For up to 90% credit: Draw the basic scene with a recursively subdivided stage, animated objects, movable spotlights, and *moving* shadows.
 
-For above 95% credit: *Be creative!* For example, enhance the geometry of the scene, use additional animations, and/or provide enhanced shader lighting. Remember that the program should still have reasonable performance on the lab machines.
+For above 90% credit: *Be creative!* For example, enhance the geometry of the scene, use additional animations, have the lights toggle on/off, allow the colors of the lights to change, and/or provide enhanced shader lighting. Remember that the program should still have reasonable performance on the lab machines.
 
 Compiling and running the program
 =================================
