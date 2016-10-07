@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 3: Limelight"
 ---
 
-**Written Questions Due: Thursday, Oct 29th by 9:30/11:00 AM** (in class)
+**Written Questions Due: Thursday, Oct 27th by 9:30/11:00 AM** (in class)
 
-**Program Due: Monday, Nov 2nd by 11:59 PM** Late assignments will be penalized 20 points per day.
+**Program Due: Tuesday, Nov 1st by 11:59 PM** Late assignments will be penalized 20 points per day.
 
 0\. Getting Started
 ===================
@@ -26,7 +26,7 @@ If the source file is not already open in the main window, open the source file 
 1.  Whenever large polygons are rendered with lighting in OpenGL, instead of having relatively uniform shading they are bright in one area and dimmer in others. Explain why this occurs and how this problem can be avoided. Furthermore, why are the light sources applied to *every* object instead of considering whether or not the light is blocked from one object to another, i.e. our lights do not cast *shadows*?
 2.  For specular reflections, the equation in the Phong model involves the angle between the *reflection* vector and the *viewer* vector, i.e. **r** ⋅ **v**. To avoid this computation, if **v** is in the same plane as **l**, **n**, and **r** we can compute the *halfway vector* (the vector that is halfway between **l** and **v**, see hint below) as
 
-    > **h** = (**l** + **v**)/(|**l** + **v**|)
+    > **h** = (**l** + **v**)/(\|**l** + **v**\|)
     >
     > Show that the angle ψ between **n** and **h** is *half* the angle φ between **r** and **v**. In otherwords, show
     >
