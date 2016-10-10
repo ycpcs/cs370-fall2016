@@ -118,6 +118,3 @@ The output should look similar to below
 > ![image](images/lab14/RecursiveCube.png)
 
 To quit the program simply close the window.
-
-We have now completed adding light effects into our scenes. So far our scenes have consisted primarily of single objects, or multiple objects with no relationship between them. However for many scenes, e.g. the railroad assignment, objects are often related to one another - such as the wheels on the train. Thus when the train moves, the wheels should simply translate with it and only an additional local rotation is really needed. A convenient way to construct such objects (and in fact entire scenes) is by organizing things into a tree structure known as a *scene graph*. Each node of the tree contains information that applies to that node (and others below it) and rendering the scene is done by simply traversing the tree.
-
