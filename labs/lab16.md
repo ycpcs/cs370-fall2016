@@ -69,8 +69,8 @@ update_base();              		// Set initial transformation matrix
 
 NOTE: Notice that in the draw functions for each piece, the transformations are only to create the *shape* of the object and locate the *center* of it appropriately with respect to the *world origin*, i.e. the lower arm is drawn so its base is on the *x-z* plane, etc. The actual *absolute* position will be determined by the transformations in the scene graph nodes. Hence objects that have the same shape and color, e.g. the left and right upper arms, can be *drawn* with the same rendering routine.
 
-2\. Local Tranformation Update Functions
-========================================
+2\. Local Transformation Update Functions
+=========================================
 
 Once we have created the tree structure by setting the various node fields, we need to compute the local transformation matrices for each piece to locate it *relative* to its *parent*. Fortunately we can use OpenGL to do this computation by applying the individual translation, rotation, and scalings as we have done before, but now we will retrieve and *store* the *net* matrix into the *m[]* array within the node. We can retrieve the current modelview matrix using the command
 
