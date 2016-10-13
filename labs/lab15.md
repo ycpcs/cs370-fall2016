@@ -37,8 +37,8 @@ In OpenGL, (unfortunately) matrices are stored in 1D arrays that are *column-maj
 
 -   Add code to **main( )** to initialize *all* the values of the shadow matrix as shown above. Hint: It may be easier to write a small loop to initialize all the values to zero and then individually change the non-zero entries. Be careful with the indicies, remember they go *down* the columns.
 
-2. Rendering the Shadows
-========================
+2\. Rendering the Shadows
+=========================
 
 To render the shadows using the shadow matrix, we will need to perform three steps to create the appropriate model-view matrix:
 
