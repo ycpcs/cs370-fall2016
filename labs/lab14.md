@@ -99,9 +99,10 @@ where *background* is a four element **GLfloat** array containing the background
 -   Add code to **main( )** to set the ambient lighting to the **background[ ]** array using the utility function.
 -   Add code to **lightvert.vs** in the **main( )** function to initialize the **amb** vector with **gl\_LightModel.ambient**.
 
-	```cpp
-    // Set ambient light
-    vec4 amb = gl_LightModel.ambient;
+```cpp
+// Set ambient light
+vec4 amb = gl_LightModel.ambient;
+```
 
 Compiling and running the program
 =================================
