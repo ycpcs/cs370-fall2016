@@ -24,6 +24,7 @@ All information about the course will be posted here.
 * **Sept 29 - EXAM I**
 * **UPDATE** **Oct 3** - Assignment 2 (Rollin Train) Due.
 * **Oct 18** - NO CLASS - Fall Break.
+* **Oct 27/Nov 1** - Assignment 3 (Limelight) Due.
 * **Nov 1 - EXAM II**
 * **Nov 24** - NO CLASS - Thanksgiving Break.
 * **Dec 1 - EXAM III**

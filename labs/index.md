@@ -23,9 +23,9 @@ Although the labs are not graded and you are not required to submit them, they a
 > Oct 11  | [Lab 14: Recursive Subdivision](lab14.html) | [CS370_Lab14.zip](src/CS370_Lab14.zip) | [CS370_Lab14Sol.zip](sol/CS370_Lab14Sol.zip)
 > Oct 13  | [Lab 15: Simple Shadows](lab15.html) | [CS370_Lab15.zip](src/CS370_Lab15.zip) | [CS370_Lab15Sol.zip](sol/CS370_Lab15Sol.zip)
 > Oct 20  | [Lab 16: Scene Graphs](lab16.html) | [CS370_Lab16.zip](src/CS370_Lab16.zip) | [CS370_Lab16Sol.zip](sol/CS370_Lab16Sol.zip)
+> Oct 25  | [Lab 17: Alpha Blending (Transparency)](lab17.html) | [CS370_Lab17.zip](src/CS370_Lab17.zip) | [CS370_Lab17Sol.zip](sol/CS370_Lab17Sol.zip)
 
 <!--
-> Oct 25  | [Lab 17: Alpha Blending (Transparency)](lab17.html) | [CS370_Lab17.zip](src/CS370_Lab17.zip) | [CS370_Lab17Sol.zip](sol/CS370_Lab17Sol.zip)
 > Nov 3   | [Lab 18: Billboarding](lab18.html) | [CS370_Lab18.zip](src/CS370_Lab18.zip) | [CS370_Lab18Sol.zip](sol/CS370_Lab18Sol.zip)
 > Nov 8   | [Lab 19: Texture Mapping](lab19.html) | [CS370_Lab19.zip](src/CS370_Lab19.zip) | [CS370_Lab19Sol.zip](sol/CS370_Lab19Sol.zip)
 > Nov 10  | [Lab 20: Environment Mapping](lab20.html) | [CS370_Lab20.zip](src/CS370_Lab20.zip) | [CS370_Lab20Sol.zip](sol/CS370_Lab20Sol.zip)
