@@ -30,10 +30,10 @@ OP: [OpenGL: A Primer – 3rd Edition.](http://www.pearsonhighered.com/educator/
 > Oct 20  | [Lab 16: Scene Graphs](../labs/lab16.html) <br /> **Milestone 1 Due** |  | [CS370_Lab16.zip](../labs/src/CS370_Lab16.zip)
 > Oct 25  | [Lab 17: Alpha Blending](../labs/lab17.html) | OPG: Ch. 4 <br /> OP: Ch. 6.10 | [CS370_Lab17.zip](../labs/src/CS370_Lab17.zip)
 > Oct 27  | Exam Review <br /> **Assignment 3 Due** |  | 
-> Nov 1   | **EXAM II** | |
+> Nov 1   | [Lab 18: Billboarding](../labs/lab18.html) |  | [CS370_Lab18.zip](../labs/src/CS370_Lab18.zip)
+> Nov 3   | **EXAM II** | |
 
 <!--
-> Nov 5   | [Lab 18: Billboarding](../labs/lab18.html) |  | [CS370_Lab18.zip](../labs/src/CS370_Lab18.zip)
 > Nov 10  | [Lab 19: Texture Mapping](../labs/lab19.html) | OPG: Ch. 6 <br /> OP: Ch. 8 | [CS370_Lab19.zip](../labs/src/CS370_Lab19.zip)
 > Nov 12  | [Lab 20: Environment Mapping](../labs/lab20.html) |  | [CS370_Lab20.zip](../labs/src/CS370_Lab20.zip)
 > Nov 17  | [Lab 21: Multitexturing](../labs/lab21.html) |  | [CS370_Lab21.zip](../labs/src/CS370_Lab21.zip)
