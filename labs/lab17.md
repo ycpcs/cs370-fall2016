@@ -125,7 +125,7 @@ Like quadrics, GLUT also provides many common objects such as spheres, cones, to
 -   Add code to **render\_scene( )** to render a **brass** torus using a GLUT object of inner radius 0.25, outer radius of 0.5, and 20 sides and slices. Translate the torus by **torus\_pos[ ]** and rotate it by **torus\_theta** about the *y*-axis. NOTE: Make sure to render the torus *before* the translucent cylinder.
 -   Add code to **idle\_func( )** to make the torus "roll" by changing the value of **torus\_theta** by **TORUS\_STEP**. NOTE: Make sure to keep the value in the range [0.0,360.0].
 
-4\. Depth Test and Alpha Blending
+5\. Depth Test and Alpha Blending
 =================================
 
 Normally we simply enable the depth test in order to perform hidden surface removal such that the closest object is the one that appears in the final scene. However since alpha blending occurs in the *fragment processor* if the depth test is enabled when translucent objects are rendered, they may be clipped before reaching the fragment processor. Hence whenever a translucent object is rendered, the depth test must be temporarily disabled using:
