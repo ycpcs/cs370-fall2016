@@ -35,7 +35,7 @@ Textures can also be created manually from images stored in memory, usually if g
 
 **Tasks**
 
--   Add code to **load\_textures( )** within the loop to load texture **texture\_file[i]** and store the returned texture identifier into **tex\_ids[i]**. Use **SOIL\_LOAD\_AUTO** for the *force\_channels* flag, **SOIL\_CREATE\_NEW\_ID** for the *reuse\_id* flag, and **SOIL\_FLAG\_MIPMAPS** (discussed in the next section) and **SOIL\_FLAG\_INVERT\_Y** (since again, like billboarding, the images will be loaded upside-down) for the property *flags*. NOTE: To apply multiple flags, simply combine them with the bitwise *or* operator |.
+-   Add code to **load\_textures( )** within the loop to load texture **texture\_file[i]** and store the returned texture identifier into **tex\_ids[i]**. Use **SOIL\_LOAD\_AUTO** for the *force\_channels* flag, **SOIL\_CREATE\_NEW\_ID** for the *reuse\_id* flag, and **SOIL\_FLAG\_MIPMAPS** (discussed in the next section) and **SOIL\_FLAG\_INVERT\_Y** (since again, like billboarding, the images will be loaded upside-down) for the property *flags*. NOTE: To apply multiple flags, simply combine them with the bitwise *or* operator \|.
 
 2\. Setting Texture Map Properties
 ==================================
