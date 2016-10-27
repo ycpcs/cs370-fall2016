@@ -25,10 +25,9 @@ Although the labs are not graded and you are not required to submit them, they a
 > Oct 20  | [Lab 16: Scene Graphs](lab16.html) | [CS370_Lab16.zip](src/CS370_Lab16.zip) | [CS370_Lab16Sol.zip](sol/CS370_Lab16Sol.zip)
 > Oct 25  | [Lab 17: Alpha Blending (Transparency)](lab17.html) | [CS370_Lab17.zip](src/CS370_Lab17.zip) | [CS370_Lab17Sol.zip](sol/CS370_Lab17Sol.zip)
 > Nov 1   | [Lab 18: Billboarding](lab18.html) | [CS370_Lab18.zip](src/CS370_Lab18.zip) | [CS370_Lab18Sol.zip](sol/CS370_Lab18Sol.zip)
+> Nov 8   | [Lab 19: Texture Mapping](lab19.html) | [CS370_Lab19.zip](src/CS370_Lab19.zip) | [CS370_Lab19Sol.zip](sol/CS370_Lab19Sol.zip)
 
 <!--
-> Nov 3   | [Lab 18: Billboarding](lab18.html) | [CS370_Lab18.zip](src/CS370_Lab18.zip) | [CS370_Lab18Sol.zip](sol/CS370_Lab18Sol.zip)
-> Nov 8   | [Lab 19: Texture Mapping](lab19.html) | [CS370_Lab19.zip](src/CS370_Lab19.zip) | [CS370_Lab19Sol.zip](sol/CS370_Lab19Sol.zip)
 > Nov 10  | [Lab 20: Environment Mapping](lab20.html) | [CS370_Lab20.zip](src/CS370_Lab20.zip) | [CS370_Lab20Sol.zip](sol/CS370_Lab20Sol.zip)
 > Nov 15  | [Lab 21: Multitexturing](lab21.html) | [CS370_Lab21.zip](src/CS370_Lab21.zip) | [CS370_Lab21Sol.zip](sol/CS370_Lab21Sol.zip)
 > Nov 17  | [Lab 22: Bumpmapping](lab22.html) | [CS370_Lab22.zip](src/CS370_Lab22.zip) | [CS370_Lab22Sol.zip](sol/CS370_Lab22Sol.zip)

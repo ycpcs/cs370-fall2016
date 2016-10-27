@@ -32,9 +32,9 @@ OP: [OpenGL: A Primer – 3rd Edition.](http://www.pearsonhighered.com/educator/
 > Oct 27  | Exam Review <br /> **Assignment 3 Due** |  | 
 > Nov 1   | [Lab 18: Billboarding](../labs/lab18.html) |  | [CS370_Lab18.zip](../labs/src/CS370_Lab18.zip)
 > Nov 3   | **EXAM II** | |
+> Nov 8   | [Lab 19: Texture Mapping](../labs/lab19.html) | OPG: Ch. 6 <br /> OP: Ch. 8 | [CS370_Lab19.zip](../labs/src/CS370_Lab19.zip)
 
 <!--
-> Nov 10  | [Lab 19: Texture Mapping](../labs/lab19.html) | OPG: Ch. 6 <br /> OP: Ch. 8 | [CS370_Lab19.zip](../labs/src/CS370_Lab19.zip)
 > Nov 12  | [Lab 20: Environment Mapping](../labs/lab20.html) |  | [CS370_Lab20.zip](../labs/src/CS370_Lab20.zip)
 > Nov 17  | [Lab 21: Multitexturing](../labs/lab21.html) |  | [CS370_Lab21.zip](../labs/src/CS370_Lab21.zip)
 > Nov 19  | [Lab 22: Bumpmapping](../labs/lab22.html) | OPG: Ch. 8 | [CS370_Lab22.zip](../labs/src/CS370_Lab22.zip)
