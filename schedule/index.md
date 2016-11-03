@@ -33,6 +33,9 @@ OP: [OpenGL: A Primer – 3rd Edition.](http://www.pearsonhighered.com/educator/
 > Nov 1   | [Lab 18: Billboarding](../labs/lab18.html) |  | [CS370_Lab18.zip](../labs/src/CS370_Lab18.zip)
 > Nov 3   | **EXAM II** | |
 > Nov 8   | [Lab 19: Texture Mapping](../labs/lab19.html) | OPG: Ch. 6 <br /> OP: Ch. 8 | [CS370_Lab19.zip](../labs/src/CS370_Lab19.zip)
+> Nov 24  | **NO CLASS - Thanksgiving Break** | |
+> Nov 29  | Exam Review  |  | 
+> Dec 1   | **EXAM III** <br /> **Assignment 4 Due** | |
 
 <!--
 > Nov 12  | [Lab 20: Environment Mapping](../labs/lab20.html) |  | [CS370_Lab20.zip](../labs/src/CS370_Lab20.zip)
